@@ -1,3 +1,3 @@
-let chalk = require('chalk');
+import { green } from 'chalk';
 
-console.info(chalk.green('Starting app in dev mode...'));
+console.info(green('Starting app in dev mode...'));
