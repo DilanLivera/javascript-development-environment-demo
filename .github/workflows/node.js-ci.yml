@@ -17,7 +17,8 @@ jobs:
       - name: npm install and build webpack
         run: |
           npm install
-          npm run build:dev
+#TODO: enable build
+#          npm run build
       - uses: actions/upload-artifact@master
         with:
           name: webpackartifacts
