@@ -10,6 +10,7 @@
     "share": "npm-run-all --parallel start localtunnel",
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch":  "npm run lint -- --watch",
+    "build": "npx webpack --config ./webpack.config.js --mode production",
     "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
